@@ -6,7 +6,7 @@ ISC Kea DHCP server on Docker.
 
 ## Usage
 
-You must edit `kea-dhcp4.conf` file before run it.
+You must edit `kea-dhcp6.conf` file before run it.
 
 ```
 $ docker-compose up -d
@@ -19,3 +19,5 @@ MIT
 ## Author Information
 
 [Masaaki Hirotsu](<mailto:hirotsu.masaaki@gmail.com>)
+
+[yoshixmk](pirori67@gmail.com)

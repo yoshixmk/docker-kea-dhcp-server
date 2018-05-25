@@ -40,5 +40,5 @@ RUN apk --no-cache add \
 
 COPY --from=builder /usr/local /usr/local/
 
-ENTRYPOINT ["/usr/local/sbin/kea-dhcp4"]
-CMD ["-c", "/usr/local/etc/kea/kea-dhcp4.conf"]
+ENTRYPOINT ["/usr/local/sbin/kea-dhcp6"]
+CMD ["-c", "/usr/local/etc/kea/kea-dhcp6.conf"]
